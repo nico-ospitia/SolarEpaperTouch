@@ -1,0 +1,2 @@
+# Keep the helper scripts out of GitHub's language stats, so the repo shows as firmware (C++)
+tools/** linguist-documentation
