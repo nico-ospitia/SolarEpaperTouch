@@ -1,0 +1,20 @@
+# Build output
+build/
+.pio/
+*.bin
+*.elf
+*.map
+
+# Wi-Fi credentials and API keys: commit a secrets.example.h instead
+secrets.h
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/

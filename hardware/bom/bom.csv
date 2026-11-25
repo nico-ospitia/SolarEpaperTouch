@@ -1,0 +1,14 @@
+Ref,Qty,Part,Description,Key specs,Search term,Unit price (USD),Link,Notes
+U1,1,ESP32-C3 SuperMini,Microcontroller board with Wi-Fi and BLE,"ESP32-C3, USB-C, on-board 3.3 V regulator, 22.5 x 18 mm",ESP32-C3 SuperMini,,,Remove the power LED for low deep-sleep current
+U2,1,CN3065 solar charger module,Charges the LiPo from the solar panel,"4.4-6.0 V input, 4.2 V charge voltage, up to 500 mA",CN3065 solar charger module,,,Has SS14 diodes on its inputs; micro-USB input for backup charging
+U3,1,TP4056 + DW01A module (USB-C),1S battery protection,"DW01A + FS8205A protection",TP4056 Type-C module with protection,,,Only B+/B- and OUT+/OUT- are used; IN+/IN- and USB-C stay unconnected
+U4,1,WeAct Studio 4.2-inch e-paper module,Black/white e-paper display,"400 x 300 px, SSD1683, SPI, 3.3 V logic",WeAct 4.2 inch e-paper module,,,GxEPD2 driver class GxEPD2_420_GDEY042T81
+U5,1,INMP441 microphone module,I2S MEMS microphone,"24-bit I2S, 1.8-3.3 V, about 1.4 mA",INMP441 I2S microphone module,,,Not used by the firmware yet
+U6-U8,3,TTP223 touch module,Capacitive touch button,"Active-high, momentary with the default jumpers",TTP223 touch sensor module,,,Senses through a thin plastic wall
+PV1,1,Mini solar panel 5 V,Charges the battery through U2,"5 V nominal, open-circuit voltage 6 V or less",mini solar panel 5V epoxy,,,Size and power to match the enclosure
+BT1,1,LiPo cell 1S,Rechargeable battery,"3.7 V, 500-1000 mAh, bare wire leads",3.7V LiPo battery 1000mAh,,,
+SW1,1,Mini slide switch,Power on/off,"SPDT used as SPST, rated 0.5 A or more",SS12D00 mini slide switch,,,
+R1,1,Resistor 10 kOhm,Boot pull-up on IO2,"1/4 W, through-hole",10k resistor 1/4W,,,
+-,1,Perfboard,Base for the modules,Copper pads; size to fit the enclosure,prototype PCB perfboard,,,
+-,1 set,Pin headers,To socket the modules instead of soldering them,"2.54 mm pitch, male and female",2.54mm female pin header,,,
+-,1,Hook-up wire,Point-to-point wiring,26-28 AWG,28AWG silicone wire,,,
